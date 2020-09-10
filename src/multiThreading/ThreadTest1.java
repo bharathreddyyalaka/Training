@@ -36,7 +36,4 @@ public class ThreadTest1 extends Thread {
 			System.out.println(e);
 		}
 	}
-	
-	
-
 }
