@@ -47,7 +47,7 @@ class PrintDemo {
 	   }
 	   
 	   public void run() {
-		   synchronized(PD){
+		  synchronized(PD){
 	      PD.printCount();
 		   }
 	      System.out.println("Thread " +  threadName + " exiting.");
